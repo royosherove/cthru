@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CThru", "CThru", "{9105DE5B-A1B1-4009-93EB-32FC4F5C3CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SilverUnit", "SilverUnit", "{3AD809AF-F35B-471A-BA8E-893889C63798}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SilverUnit.ExampleTests", "SilverUnit.ExampleTests", "{E23B2EE8-CA5E-49B3-A0BB-CD85D0B02916}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A8CA706D-5935-4A5F-8740-BFCAD0BF7F31}"
+	ProjectSection(SolutionItems) = preProject
+		Versions.cs = Versions.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{C3C1B58C-003A-41DB-B2E1-D2426A1CCC2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CThru_vs2010", "CThru\CThruEngine\CThru_vs2010.csproj", "{48A528BD-5119-4B38-9EC0-3C3BB6081B96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CThru.Tests", "CThru.Tests\CThru.Tests.csproj", "{62D46F94-97BB-4BF2-A14E-975EC628B418}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CThru.SilverUnit_vs2010", "SilverUnit\SilverUnit\SilverUnit\CThru.SilverUnit_vs2010.vbproj", "{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlsUnderTest_vs2010", "SilverUnit\SilverUnit.ExampleTests\ControlsUnderTest\ControlsUnderTest_vs2010.csproj", "{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlTests_vs2010.CS", "SilverUnit\SilverUnit.ExampleTests\ControlTests.CS\ControlTests_vs2010.CS.csproj", "{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ControlTests_vs2010.VB", "SilverUnit\SilverUnit.ExampleTests\ControlTests.VB\ControlTests_vs2010.VB.vbproj", "{3609AA7F-BDAA-43B6-9545-F0DF959587C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48A528BD-5119-4B38-9EC0-3C3BB6081B96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A528BD-5119-4B38-9EC0-3C3BB6081B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A528BD-5119-4B38-9EC0-3C3BB6081B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A528BD-5119-4B38-9EC0-3C3BB6081B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62D46F94-97BB-4BF2-A14E-975EC628B418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62D46F94-97BB-4BF2-A14E-975EC628B418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62D46F94-97BB-4BF2-A14E-975EC628B418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62D46F94-97BB-4BF2-A14E-975EC628B418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3609AA7F-BDAA-43B6-9545-F0DF959587C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3609AA7F-BDAA-43B6-9545-F0DF959587C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3609AA7F-BDAA-43B6-9545-F0DF959587C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3609AA7F-BDAA-43B6-9545-F0DF959587C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48A528BD-5119-4B38-9EC0-3C3BB6081B96} = {9105DE5B-A1B1-4009-93EB-32FC4F5C3CE7}
+		{62D46F94-97BB-4BF2-A14E-975EC628B418} = {9105DE5B-A1B1-4009-93EB-32FC4F5C3CE7}
+		{E23B2EE8-CA5E-49B3-A0BB-CD85D0B02916} = {3AD809AF-F35B-471A-BA8E-893889C63798}
+		{5F6CE4F7-0962-4D7D-93FF-7C5DA7615A41} = {3AD809AF-F35B-471A-BA8E-893889C63798}
+		{BDC7605E-4B2E-41B8-A5F6-4FBFD7651AC9} = {E23B2EE8-CA5E-49B3-A0BB-CD85D0B02916}
+		{A686A2BE-33F5-4A4A-B148-EB3D0DD17EED} = {E23B2EE8-CA5E-49B3-A0BB-CD85D0B02916}
+		{3609AA7F-BDAA-43B6-9545-F0DF959587C9} = {E23B2EE8-CA5E-49B3-A0BB-CD85D0B02916}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

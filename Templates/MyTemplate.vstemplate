@@ -1,0 +1,43 @@
+<VSTemplate Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>SilverUnit Test Project</Name>
+    <Description>SilverUnit Test project for SL 2 and 3</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>Silverlight</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>SilverlightUnitTests1</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="SilverlightUnitTests1.csproj" File="SilverlightUnitTests1.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="ControlTests1.cs">ControlTests1.cs</ProjectItem>
+      <Folder Name="dep" TargetFolderName="dep">
+        <Folder Name="CThru" TargetFolderName="CThru">
+          <ProjectItem ReplaceParameters="false" TargetFileName="CThru.dll">CThru.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="CThru.Silverlight.dll">CThru.Silverlight.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="EventsHelper.dll">EventsHelper.dll</ProjectItem>
+        </Folder>
+        <Folder Name="NUnit" TargetFolderName="NUnit">
+          <ProjectItem ReplaceParameters="false" TargetFileName="nunit.framework.dll">nunit.framework.dll</ProjectItem>
+        </Folder>
+        <Folder Name="SL3" TargetFolderName="SL3">
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Core.dll">System.Core.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="system.dll">system.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Net.dll">System.Net.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Runtime.Serialization.dll">System.Runtime.Serialization.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Windows.Controls.dll">System.Windows.Controls.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Windows.Controls.Input.dll">System.Windows.Controls.Input.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Windows.dll">System.Windows.dll</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="System.Xml.dll">System.Xml.dll</ProjectItem>
+        </Folder>
+      </Folder>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
