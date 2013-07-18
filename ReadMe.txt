@@ -1,3 +1,6 @@
+This project is licensed under the Apache 2 License.
+
+
 IMPORANT:
 ----------------
 To use this project or run the examples, 
